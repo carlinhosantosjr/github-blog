@@ -1,4 +1,4 @@
-# Projeto GitHub-Challenge
+# Projeto GitHub-Blog
 
 ![Badge](https://img.shields.io/badge/React-18-blue) ![Badge](https://img.shields.io/badge/TypeScript-4.9-blue) ![Badge](https://img.shields.io/badge/StyledComponents-%23DB7093.svg) ![Badge](https://img.shields.io/badge/Axios-%23323330.svg) ![Badge](https://img.shields.io/badge/ReactRouter-%23CA4245.svg) ![Badge](https://img.shields.io/badge/ContextAPI-%2300D8FF.svg)
 
