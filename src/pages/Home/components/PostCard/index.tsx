@@ -4,15 +4,6 @@ import { useNavigate } from 'react-router-dom'
 import { calculateDate } from '../../../../utils/calculateDate'
 
 export function PostCard(data:postCardProps) {
-  const newText = truncateByLetters(data.body, 200)
-
-  function truncateByLetters(text: string, maxLetters: number) {
-    if (text.length > maxLetters) {
-      return text.slice(0, maxLetters) + '...'
-    }
-    return text
-  }
-
   const navigate = useNavigate()
   function handleClickOnCard(data:postCardProps) {
     navigate(`post/${data.number}`)
@@ -25,7 +16,7 @@ export function PostCard(data:postCardProps) {
         <span>Há {calculateDate(data.created_at)} dias</span>
       </HeaderCard>
       <MarkDownContainer>
-        {newText}
+        {data.body}
       </MarkDownContainer>
     </Container>
   )

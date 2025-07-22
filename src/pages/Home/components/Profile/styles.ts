@@ -4,16 +4,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export const Container = styled.div`
 background-color: ${props => props.theme['base-profile']};
 display: flex;
-width: 54rem;
+align-items: center;
+width: 100%;
+max-width: 54rem;
 height: 13.25rem;
 border-radius: 12px;
 margin-top: -6.25rem;
 
+@media (max-width: 550px) {
+    gap: 0;
+    padding: 0;    
+  }
+
 img {
-  border-radius: 50px;
-  width: 13.75rem;
-  height: 13.75rem;
-  padding: 2.188rem;
+  border-radius: 20px;
+  width: 10.75rem;
+  height: 10.75rem;
+  margin: 20px 20px 20px 40px;
+
+  @media (max-width: 550px) {
+    gap: 0;
+    margin: 0px 4px 10px;
+    padding: 0;
+    width: 8.75rem;
+    height: 8.75rem;
+    border-radius: 15px;
+  }
 }
 `
 
@@ -49,11 +65,29 @@ a {
     text-decoration: underline;
   }
 }
+
+  @media (max-width: 430px) {
+
+    h1 {
+      font-size: 1.25rem;
+    }
+    a {
+      font-size: 0.7rem;
+    }
+  }
 `
 
 export const BioContainer = styled.div`
 color: ${props => props.theme['base-text']};
 font-size: 1rem;
+width: 100%;
+max-width: 100%;
+
+span {
+  @media (max-width: 380px) {
+    font-size: 0.835rem;
+  }
+}
 `
 
 export const FooterContainer = styled.div`
@@ -69,6 +103,18 @@ div {
   display: flex;
   align-items: center;
 }
+
+  @media (max-width: 550px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+   @media (max-width: 430px) {
+    span {
+      font-size: 0.875rem;
+    }
+   }
 `
 
 export const ArrowUpStyled = styled(FontAwesomeIcon)`

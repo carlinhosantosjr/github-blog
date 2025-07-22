@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+max-width: 26rem;
 display: flex;
 flex-direction: column;
 background-color: ${props => props.theme['base-post']};
-width: 26rem;
 height: 16.25rem;
 border-radius: 8px;
 padding: 1.875rem;
@@ -39,6 +39,8 @@ span {
 }
 `
 export const MarkDownContainer = styled.div`
+overflow: hidden;
+max-width: 100%;
 font-size: 1rem;
 color: ${props => props.theme['base-text']};
 `

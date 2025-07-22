@@ -3,7 +3,7 @@
 ![Badge](https://img.shields.io/badge/React-18-blue) ![Badge](https://img.shields.io/badge/TypeScript-4.9-blue) ![Badge](https://img.shields.io/badge/StyledComponents-%23DB7093.svg) ![Badge](https://img.shields.io/badge/Axios-%23323330.svg) ![Badge](https://img.shields.io/badge/ReactRouter-%23CA4245.svg) ![Badge](https://img.shields.io/badge/ContextAPI-%2300D8FF.svg)
 
 Projeto desenvolvido como desafio para o curso de ReactJs da Rocketseat. Nele nós consumimos api's do github trazendo um estilo de blog para o projeto, no qual os posts são as issues.
-https://git-hub-challenge-one.vercel.app/
+https://github-blog-f2kbmn971-carlinhosantosjrs-projects.vercel.app
 
 ## 🚀 Tecnologias
 

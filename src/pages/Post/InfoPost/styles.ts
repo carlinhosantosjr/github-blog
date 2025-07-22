@@ -5,7 +5,8 @@ export const Container = styled.div`
 background-color: ${props => props.theme['base-profile']};
 display: flex;
 flex-direction: column;
-width: 54rem;
+width: 100%;
+max-width: 54rem;
 min-height: 10.625rem;
 border-radius: 12px;
 margin-top: -5.625rem;
@@ -37,7 +38,6 @@ a {
     text-decoration: underline;
   }
 }
-
 `
 
 export const TitleContainer = styled.div`
@@ -51,8 +51,15 @@ display: flex;
 color: ${props => props.theme['base-span']};
 gap: 2rem;
 
+
 span {
   margin-left: 0.5rem;
+}
+
+@media (max-width: 500px) {
+display: flex;
+flex-direction: column;
+gap: 0;
 }
 `
 

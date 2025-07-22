@@ -10,6 +10,7 @@ gap: 3rem;
 `
 
 export const MarkdownContainer = styled.div`
+width: 100%;
 max-width: 53.125rem;
 padding: 0 1.25rem 12.5rem 1.25rem;
 

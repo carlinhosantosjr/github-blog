@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
 display: flex;
+flex-wrap: wrap;
 height: 18.5rem;
 justify-content: space-between;
 background: ${props => props.theme['base-background']};
@@ -32,4 +33,13 @@ background: radial-gradient(
       margin-top:-4.688rem;
       margin-left:-2.188rem;
     }
+
+    img:first-of-type,
+    img:last-of-type {
+    @media (max-width: 910px) {
+    max-width: 30vw;
+
+  
+  }
+}
 `
